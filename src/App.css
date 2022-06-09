@@ -1,0 +1,19 @@
+.App{
+  background-color: #ffffff
+}
+.primary{
+  color: #252734
+}
+.secondary{
+  color: #6d56c1
+}
+.accent{
+  color: #FF648F
+}
+.base{
+  color: #67BAA7
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
