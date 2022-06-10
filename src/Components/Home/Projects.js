@@ -17,7 +17,7 @@ const Projects = () => {
     <h2 class="card-title">Brush Manufacturer</h2>
     <p>Manufacturing goods</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white ">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white ">Details</button>
     </div>
   </div>
 </div>
@@ -27,7 +27,7 @@ const Projects = () => {
     <h2 class="card-title">Bunch</h2>
     <p>Fruits warehouse</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
     </div>
   </div>
 </div>
@@ -37,7 +37,7 @@ const Projects = () => {
     <h2 class="card-title">Marget fox fitness</h2>
     <p>Independent service provider website</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
     </div>
   </div>
 </div>
@@ -47,7 +47,7 @@ const Projects = () => {
     <h2 class="card-title">Headphone City</h2>
     <p>This shows review of headphones</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
     </div>
   </div>
 </div>
