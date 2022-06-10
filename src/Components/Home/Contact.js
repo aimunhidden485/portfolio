@@ -24,7 +24,7 @@ const Contact = () => {
   <input type="text" placeholder="Message" class="input input-bordered w-full max-w-xs" required />
   
 </div><br/>
-     <button className='btn btn-primary' type="submit">Send</button>
+     <button className='px-5 py-3 bg-[#D9A21B] uppercase rounded w-full' type="submit">Send</button>
 </form>
         </div>
     );
