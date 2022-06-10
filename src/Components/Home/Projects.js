@@ -17,37 +17,37 @@ const Projects = () => {
     <h2 class="card-title">Brush Manufacturer</h2>
     <p>Manufacturing goods</p>
     <div class="card-actions ">
-      <button class="btn btn-primary">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white ">Live site</button>
     </div>
   </div>
 </div>
-          <div data-aos="fade-left" class="card card-side bg-base-100 shadow-xl">
+          <div data-aos="fade-left" data-aos-easing="ease-in-out" class="card card-side bg-base-100 shadow-xl">
   <figure><img className='w-[300px]' src={bunch} alt="Movie"/></figure>
   <div class="card-body">
     <h2 class="card-title">Bunch</h2>
     <p>Fruits warehouse</p>
     <div class="card-actions ">
-      <button class="btn btn-primary">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Live site</button>
     </div>
   </div>
 </div>
-          <div data-aos="fade-right" class="card card-side bg-base-100 shadow-xl">
+          <div data-aos="fade-up-right" class="card card-side bg-base-100 shadow-xl">
   <figure><img className='w-[300px]' src={margeret} alt="Movie"/></figure>
   <div class="card-body">
     <h2 class="card-title">Marget fox fitness</h2>
     <p>Independent service provider website</p>
     <div class="card-actions ">
-      <button class="btn btn-primary">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Live site</button>
     </div>
   </div>
 </div>
-          <div data-aos="fade-left" class="card card-side bg-base-100 shadow-xl">
+          <div data-aos="fade-up-left" class="card card-side bg-base-100 shadow-xl">
   <figure><img className='w-[300px]' src={headphone} alt="Movie"/></figure>
   <div class="card-body">
     <h2 class="card-title">Headphone City</h2>
     <p>This shows review of headphones</p>
     <div class="card-actions ">
-      <button class="btn btn-primary">Live site</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Live site</button>
     </div>
   </div>
 </div>
