@@ -5,8 +5,13 @@ import margeret from '../../../src/images/margeret.png'
 import headphone from '../../../src/images/headphone.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { useNavigate } from 'react-router-dom';
 const Projects = () => {
   AOS.init()
+  const navigate=useNavigate()
+  const handleBrush=()=>{
+navigate('/brush')
+  }
     return (
         <div className='bg-[#ffffff] mt-[80px] mb-[80px] px-20'>
           <h1 className='text-center text-4xl font-bold mb-5'>Projects</h1>
@@ -17,7 +22,7 @@ const Projects = () => {
     <h2 class="card-title">Brush Manufacturer</h2>
     <p>Manufacturing goods</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white ">Details</button>
+      <button onClick={handleBrush} class="px-5 py-3 bg-[#22252c] uppercase rounded text-white ">Details</button>
     </div>
   </div>
 </div>
@@ -41,7 +46,7 @@ const Projects = () => {
     </div>
   </div>
 </div>
-          <div data-aos="fade-up-left" class="card card-side bg-base-100 shadow-xl">
+          {/* <div data-aos="fade-up-left" class="card card-side bg-base-100 shadow-xl">
   <figure><img className='w-[300px]' src={headphone} alt="Movie"/></figure>
   <div class="card-body">
     <h2 class="card-title">Headphone City</h2>
@@ -50,7 +55,7 @@ const Projects = () => {
       <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
     </div>
   </div>
-</div>
+</div> */}
           </div>
         </div>
     );
