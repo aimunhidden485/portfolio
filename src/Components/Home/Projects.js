@@ -12,6 +12,12 @@ const Projects = () => {
   const handleBrush=()=>{
 navigate('/brush')
   }
+  const handleBunch=()=>{
+navigate('/bunch')
+  }
+  const handleMargeret=()=>{
+navigate('/margeret')
+  }
     return (
         <div className='bg-[#ffffff] mt-[80px] mb-[80px] px-20'>
           <h1 className='text-center text-4xl font-bold mb-5'>Projects</h1>
@@ -32,7 +38,7 @@ navigate('/brush')
     <h2 class="card-title">Bunch</h2>
     <p>Fruits warehouse</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
+      <button onClick={handleBrush} class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
     </div>
   </div>
 </div>
@@ -42,7 +48,7 @@ navigate('/brush')
     <h2 class="card-title">Marget fox fitness</h2>
     <p>Independent service provider website</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
+      <button onClick={handleMargeret} class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
     </div>
   </div>
 </div>
