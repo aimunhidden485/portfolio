@@ -47,7 +47,7 @@ const Projects = () => {
     <h2 class="card-title">Headphone City</h2>
     <p>This shows review of headphones</p>
     <div class="card-actions ">
-      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
+      <button class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Live</button>
     </div>
   </div>
 </div>
