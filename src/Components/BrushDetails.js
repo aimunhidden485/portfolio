@@ -4,6 +4,7 @@ const BrushDetails = () => {
     return (
         <div className=''>
            <div class="mockup-code w-full mx-auto">
+               
   <pre data-prefix="1"><code>A full stack project</code></pre> 
   <pre data-prefix="2"><code>Two different dashboards for users and admins</code></pre> 
   <pre data-prefix="3" class=""><code>Users can see their ordered products</code></pre>

@@ -38,7 +38,7 @@ navigate('/margeret')
     <h2 class="card-title">Bunch</h2>
     <p>Fruits warehouse</p>
     <div class="card-actions ">
-      <button onClick={handleBrush} class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
+      <button onClick={handleBunch} class="px-5 py-3 bg-[#22252c] uppercase rounded text-white">Details</button>
     </div>
   </div>
 </div>
